@@ -1,0 +1,284 @@
+  <!--===========================PORTAL EVALUACIONES GUATEMALA FEBRERO 2020==============================-->
+  <!--==================================INICIADO POR: LUIS ZAMBRANO======================================-->
+  <!--===============================MODIFICADO POR: JESSICA CASTELLANOS=================================-->
+  <!--==============================ÚLTIMA MODIFICACIÓN: 25 FEBRERO 2020=================================-->
+  <!--========================================VERSIÓN: 1.0===============================================-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../../css/bootstrap337.min.css">
+<link rel="stylesheet" href="../../css/bootstrap.min.css">
+<title>Hoja de Respuesta: Evaluaci&oacute;n de Seguridad</title>
+ 
+<style type="text/css">
+div#contenedor{
+	width: 35em;
+	overflow: hidden;
+	margin: 0 auto;
+	
+	padding: 0.5em;
+	
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:active {
+	color: #FFF;
+}
+		
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+html { 
+	background-color: #EFEFEF;
+	padding: 0 30px; background-attachment: fixed; 
+}
+
+    .modal {
+	}
+	.vertical-alignment-helper {
+		display:table;
+		height: 100%;
+		width: 100%;
+	}
+	.vertical-align-center {
+		/* To center vertically */
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.modal-content {
+		width:inherit;
+		height:inherit;
+		/* To center horizontally */
+		margin: 0 auto;
+	}
+	.modal-header {
+	    padding: 2px 16px;
+	    background-color: #5cb85c;
+	    color: white;
+	}
+
+		
+</style>
+<script type="text/javascript" src="../../js/califica/eval16/calificaeval16.js"></script>
+
+
+
+<!--Respuestas correctas: "+numeroRespuestasOK+"<br/>Respuestas incorrectas: "+ numeroRespuestasKO+"<br/>Respuestas en blanco: "+ numeroRespuestasNulas+"<br/-->
+
+	<link href="../../css/print.css" type="text/css" media="print" />
+</head>
+<body> <!--oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false' onkeydown='return false' onbeforeprint='return false'-->
+
+	<div class="nover" style="margin-left:-20px; "> 
+	  <div style='-o-user-select: none;
+		  -webkit-user-select: none;
+		  -moz-user-select: -moz-none;
+		  -khtml-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;' 
+			onselectstart='return false;' unselectable='on' >
+
+		<a name="Titulo" ><img src="../../img/logo3.png" align="right" style="height:8%; width:15%; margin-top:10px; margin-bottom:-50px;"/></a>
+		<font face="calibri" size=4>
+
+		<div id="contenedor" style="background-color: #EFEFEF;" >
+		<b><font color="#005599" size=6>Protección al consumidor</font>
+		<br>Hoja de Respuestas</b>
+		
+		<p><table style="width:80%;">
+		<tr><td width="9%">C&oacute;digo: </td><td width="12%"><input type="text" class="form-control" id="codigo" placeholder="C&oacute;digo" style="width:85%" ></td>
+		<td width="9%">Nombre: </td><td width="40%"><input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre y Apellido" style="width:100%;"></td></tr>
+		</table>
+		
+		<p><div id="infoprint" >Marque <b>una</b> respuesta para cada item.
+		<input id="testbutton" type="button" class="btn btn-info" value="Evaluar" onclick="comprobarRadio(matrizTest)"  />
+	    <font color="#009900"><input id="printpagebutton" type="button" class="btn btn-success" value="Imprimir Hoja" onclick="myFunction()" disabled></font></div>
+		
+		<table width="40%" style="float:left; border: 0px solid red; ">
+				<tr><td>&nbsp;1.</td>
+				<td>a. <input type="radio" value="A" name="1"/></td>
+				<td>b. <input type="radio" value="B" name="1"/></td>
+				<td>c. <input type="radio" value="C" name="1"/></td>
+				<td>d. <input type="radio" value="D" name="1"/></td>  	</tr> 
+		 <tr> 	<td>&nbsp;2.</td>
+				<td>a. <input type="radio" value="A" name="2"/></td>
+				<td>b. <input type="radio" value="B" name="2"/></td>
+				<td> </td>
+				<td> </td>												</tr> 
+		 <tr>	<td>&nbsp;3.</td>
+				<td>a. <input type="radio" value="A" name="3"/></td>
+				<td>b. <input type="radio" value="B" name="3"/></td>
+				<td>c. <input type="radio" value="C" name="3"/></td>
+				<td>d. <input type="radio" value="D" name="3"/></td>  	</tr>  
+		 <tr> 	<td>&nbsp;4.</td>
+				<td>a. <input type="radio" value="A" name="4"/></td>
+				<td>b. <input type="radio" value="B" name="4"/></td>
+				<td> </td>
+				<td> </td>												</tr>  
+		 <tr>	<td>&nbsp;5.</td>
+				<td>a. <input type="radio" value="A" name="5"/></td>
+				<td>b. <input type="radio" value="B" name="5"/></td>
+				<td>c. <input type="radio" value="C" name="5"/></td>
+				<td>d. <input type="radio" value="D" name="5"/></td>  	</tr>  
+		 <tr>	<td>&nbsp;6.</td>
+				<td>a. <input type="radio" value="A" name="6"/></td>
+				<td>b. <input type="radio" value="B" name="6"/></td>
+				<td>c. <input type="radio" value="C" name="6"/></td>
+				<td>d. <input type="radio" value="D" name="6"/></td>	</tr> 
+		 <tr>	<td>&nbsp;7.</td>
+				<td>a. <input type="radio" value="A" name="7"/></td>
+				<td>b. <input type="radio" value="B" name="7"/></td>
+				<td> </td>
+				<td> </td>												</tr>
+		 <tr>	<td>&nbsp;8.</td>
+				<td>a. <input type="radio" value="A" name="8"/></td>
+				<td>b. <input type="radio" value="B" name="8"/></td>
+				<td>c. <input type="radio" value="C" name="8"/></td>
+				<td>d. <input type="radio" value="D" name="8"/></td>	</tr> 
+		 <tr>	<td>&nbsp;9.</td>
+				<td>a. <input type="radio" value="A" name="9"/></td>
+				<td>b. <input type="radio" value="B" name="9"/></td>
+				<td> </td>
+				<td> </td>												</tr>
+		 <tr>	<td>&nbsp;10.</td>
+				<td>a. <input type="radio" value="A" name="10"/></td>
+				<td>b. <input type="radio" value="B" name="10"/></td>
+				<td>c. <input type="radio" value="C" name="10"/></td>
+				<td>d. <input type="radio" value="D" name="10"/></td>	</tr> 
+		 <tr> 	<td>&nbsp;11.</td>
+				<td>a. <input type="radio" value="A" name="11"/></td>
+				<td>b. <input type="radio" value="B" name="11"/></td>
+				<td>c. <input type="radio" value="C" name="11"/></td>
+				<td>d. <input type="radio" value="D" name="11"/></td>  	</tr> 
+		 <tr>	<td>&nbsp;12.</td>
+				<td>a. <input type="radio" value="A" name="12"/></td>
+				<td>b. <input type="radio" value="B" name="12"/></td>
+				<td> </td>
+				<td> </td>												</tr>   
+		 <tr> 	<td>&nbsp;13.</td>
+				<td>a. <input type="radio" value="A" name="13"/></td>
+				<td>b. <input type="radio" value="B" name="13"/></td>
+				<td> </td>
+				<td> </td>												</tr>  
+		 <tr>	<td>&nbsp;14.</td>
+				<td>a. <input type="radio" value="A" name="14"/></td>
+				<td>b. <input type="radio" value="B" name="14"/></td>
+				<td>c. <input type="radio" value="C" name="14"/></td>
+				<td>d. <input type="radio" value="D" name="14"/></td>  	</tr> 
+		 <tr>	<td>&nbsp;15.</td>
+				<td>a. <input type="radio" value="A" name="15"/></td>
+				<td>b. <input type="radio" value="B" name="15"/></td>
+				<td> </td>
+				<td> </td>												</tr> 
+		 <tr>	<td>&nbsp;16.</td>
+				<td>a. <input type="radio" value="A" name="16"/></td>
+				<td>b. <input type="radio" value="B" name="16"/></td>
+				<td> </td>
+				<td> </td>												</tr> 
+		 <tr>	<td>&nbsp;17.</td>
+				<td>a. <input type="radio" value="A" name="17"/></td>
+				<td>b. <input type="radio" value="B" name="17"/></td>
+				<td> </td>
+				<td> </td>												</tr> 
+		 <tr>	<td>&nbsp;18.</td>
+				<td>a. <input type="radio" value="A" name="18"/></td>
+				<td>b. <input type="radio" value="B" name="18"/></td>
+				<td>c. <input type="radio" value="C" name="18"/></td>
+				<td>d. <input type="radio" value="D" name="18"/></td>	</tr> 
+		 <tr>	<td>&nbsp;19.</td>
+				<td>a. <input type="radio" value="A" name="19"/></td>
+				<td>b. <input type="radio" value="B" name="19"/></td>
+				<td> </td>
+				<td> </td>												</tr> 
+		 <tr>	<td>&nbsp;20.</td>
+				<td>a. <input type="radio" value="A" name="20"/></td>
+				<td>b. <input type="radio" value="B" name="20"/></td>
+				<td> </td>
+				<td> </td>												</tr> 
+
+		</table>
+
+		<div id="solucion" ></div>
+	  </div>
+	</font>
+ 
+   </div>
+  </div> 
+
+	<div id="myModal" class="modal fade" role="dialog" >
+	  <div class="vertical-alignment-helper">
+	   <div class="modal-dialog vertical-align-center">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h3 class="modal-title">Atenci&oacute;n: Contenido Pendiente</h3>
+		  </div>
+		  <div class="modal-body">
+			<h4><p>Este contenido se encuentra <b>pendiente de publicar</b> hasta la siguiente fase.</p></h4>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+		  </div>
+		</div>
+	   </div>
+	  </div>
+	</div> 
+ 
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script> 
+ 
+
+<script type="text/javascript">
+
+	document.getElementById("nombre").addEventListener("keyup", function() {
+		var nameInput = document.getElementById('nombre').value;
+		var codeInput = document.getElementById('codigo').value;
+		if (nameInput != "" && codeInput != "") {
+			document.getElementById('printpagebutton').removeAttribute("disabled");
+		} else {
+			document.getElementById('printpagebutton').setAttribute("disabled", null);
+		}
+	});
+	document.getElementById("codigo").addEventListener("keyup", function() {
+		var codeInput = document.getElementById('codigo').value;
+		var nameInput = document.getElementById('nombre').value;
+		if (nameInput != "" && codeInput != "") {
+			document.getElementById('printpagebutton').removeAttribute("disabled");
+		} else {
+			document.getElementById('printpagebutton').setAttribute("disabled", null);
+		}
+	});
+</script>
+ 
+<script>
+ $(window).load(function(){        
+   $('#myModal').modal('show');
+	});   
+</script> 
+
+<script>
+function myFunction() {
+	var printButton = document.getElementById("printpagebutton");
+	var evalButton = document.getElementById("testbutton");
+    printButton.style.visibility = 'hidden';
+	evalButton.style.visibility = 'hidden';
+	window.print();
+	printButton.style.visibility = 'visible';
+	evalButton.style.visibility = 'visible';
+	return false;
+}
+</script> 
+ 
+
+
+</body>
+</html>

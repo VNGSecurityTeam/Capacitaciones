@@ -1,0 +1,146 @@
+/* Estilo de la Universidad de Alicante */
+
+* {
+  color: #003366;
+  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #FFFFFF;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/* Logotipo de la Universidad de Alicante y título de la página web */  
+/*
+h1 {
+  background: url('../img/logouap.gif') no-repeat center left;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+*/
+
+h1 {
+  text-align: center;
+}
+
+#cabecera img {
+  border: 0px;
+  vertical-align: middle;
+}
+
+#logo1 {
+  float: left;
+}
+
+#logo2 {
+  float: right;
+}
+
+
+/* Barra de menú
+   http://www.dynamicdrive.com/dynamicindex1/hover.htm
+*/
+#menu ul {
+  padding: 0px;
+  margin: 0px;
+  background-color: #003366;
+  border: 6px solid #003366;
+}
+
+#menu li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: inline;
+}
+
+#menu a {
+  margin: 5px;
+  padding: 0px;
+  background-color: #003366;
+  border: 3px solid #003366;
+  color: #FFFFFF;
+  font-size: 80%;
+}
+
+#menu a:hover {
+  background-color: #426B94;
+  border-style: outset;
+}
+
+#menu a:active {
+  border-style: inset;
+}
+
+
+/* Contenido */
+#contenido {
+}
+
+h2, h3, h4 {
+  background-color: #BDCED6;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  background-color: #D8E5EA;
+}
+
+pre {
+  font-family: Courier, serif;
+  border: 2px solid #003366;
+  background-color: #F5F5F5;
+  padding: 10px;
+  overflow: auto;
+}
+
+code {
+  font-family: Courier, serif;
+  font-size: 1em;
+}
+
+blockquote {
+  border: 2px dotted #003366;
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+tt {
+  font-family: Arial;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.centrado {
+  text-align: center;
+  display: block;
+}
+
+
+/* Pie */
+#pie {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#pie h2 {
+  display: none;
+}
+
+#pie li {
+  display: inline;
+  list-style-type: none;
+}
+
+#pie img {
+  border: 0px;
+}

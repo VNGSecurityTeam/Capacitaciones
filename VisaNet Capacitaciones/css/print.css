@@ -1,0 +1,8 @@
+/* print.css */
+header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+  display: none;
+}
+
+button {
+  display: none;
+}
